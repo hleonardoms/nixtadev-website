@@ -14,6 +14,7 @@ export default function Home() {
             className="object-cover h-full w-full"
           >
             <source src={"/videos/pray_state.webm"} type="video/webm" />
+            <source src={"/videos/pray_state.mp4"} type="video/mp4" />
           </video>
         </div>
         
