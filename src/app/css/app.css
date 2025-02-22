@@ -1,0 +1,12 @@
+/* @import "tailwindcss";
+
+@theme {
+  --animate-pulse: var(--animate-ping);
+
+  @keyframes ping {
+    0%, 100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+} */
