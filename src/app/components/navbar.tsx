@@ -3,7 +3,6 @@
 import { fontSpaceMono } from "@/utils/font-constants";
 import { useEffect, useState } from "react";
 import {usePathname} from "next/navigation";
-import {className} from "postcss-selector-parser";
 import classNames from "classnames";
 
 export default function NavBar() {
@@ -16,17 +15,6 @@ export default function NavBar() {
       'font-extrabold',
       'tracking-tight',
   );
-  const navItemClassName = classNames(
-      'text-white',
-      'text-lg',
-      'py-2',
-      'px-6',
-      'tracking-tight',
-      'transition duration-200',
-      'hover:bg-white',
-      'hover:text-gray-950'
-  );
-
   const pathName = usePathname();
 
   const handleScroll = (): void => {
