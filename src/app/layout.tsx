@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import NavBar from "@/components/navbar";
-import Footer from "@/components/footer";
+import NavBar from "@/app/components/navbar";
+import Footer from "@/app/components/footer";
 
 export const metadata: Metadata = {
-  title: "nixtadev",
+  title: "nixtadev_",
   description: "Creando soluciones que nos definan.",
 };
 
